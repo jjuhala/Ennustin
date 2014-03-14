@@ -40,7 +40,7 @@ Partial Class Form1
         Me.tx_i.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tx_i.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tx_i.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.tx_i.Location = New System.Drawing.Point(270, 4)
+        Me.tx_i.Location = New System.Drawing.Point(274, 4)
         Me.tx_i.Name = "tx_i"
         Me.tx_i.Size = New System.Drawing.Size(73, 29)
         Me.tx_i.TabIndex = 0
@@ -49,11 +49,11 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(0, 8)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(256, 20)
+        Me.Label1.Size = New System.Drawing.Size(272, 20)
         Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Type ""random"" numbers (0-9) here:"
+        Me.Label1.Text = "Smash ""random"" numbers (0-9) here:"
         '
         'lb_i
         '
@@ -63,7 +63,7 @@ Partial Class Form1
         Me.lb_i.FormattingEnabled = True
         Me.lb_i.Location = New System.Drawing.Point(80, 63)
         Me.lb_i.Name = "lb_i"
-        Me.lb_i.Size = New System.Drawing.Size(50, 455)
+        Me.lb_i.Size = New System.Drawing.Size(50, 442)
         Me.lb_i.TabIndex = 3
         '
         'lb_p
@@ -140,7 +140,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(354, 563)
+        Me.ClientSize = New System.Drawing.Size(354, 525)
         Me.Controls.Add(Me.lb_perc)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
